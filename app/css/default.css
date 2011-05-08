@@ -1,0 +1,401 @@
+* {
+font-family: Verdana, Arial, sans-serif;
+}
+
+body {
+    padding: 0;
+    background: #F2F2F2;
+    font-size: 0.688em;
+    color: #454545;
+}
+
+a {
+    color: #666666;
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    text-decoration: none;
+}
+
+/*Login*/
+
+#login {
+    width: 50em;
+    margin: auto;
+    margin-top: 5em;
+    padding: .2em;
+}
+
+#login .ui-widget-header {
+    margin: 0em;
+    height: 3em;
+}
+
+#login .ui-widget-header div {
+    font-size: 1.1em;
+    height: 2em;
+    width: 75%;
+    padding: .6em 0 0 0;
+    text-align: center;
+    margin: auto;
+}
+
+#login table {
+    width: 100%;
+    margin: auto;
+}
+
+#login table td {
+    padding: 1em 1em;
+    vertical-align: middle;
+}
+
+#login #username, #login #password {
+    width: 75%;
+    height: 2em;
+}
+
+.label {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Main */
+
+#main {
+    margin: auto;
+    width: 98%;
+}
+
+#title {
+    font-size: 2em;
+    margin: 0.5em auto 0.5em auto;
+    width: 98%;
+}
+
+#ver {
+    font-size: 0.6em;
+    font-style: italic;
+}
+
+#external {
+    float: right;
+}
+
+#external a, #external button {
+    font-size: .5em;
+}
+
+#external form {
+    margin: 0;
+    padding: 0;
+}
+
+#loggedin {
+    font-size: .5em;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+#main li .ui-icon-close {
+    float: left;
+    margin: 0.5em 0.4em 0 0;
+    cursor: pointer;
+}
+
+#CSRF {
+    display: none;
+}
+
+/* Member Edit Page */
+
+.profile .radio {
+    float: left;
+}
+
+.profile .alert-wrapper {
+    text-align: center;
+    height: 2.5em;
+}
+
+.alert-msg {
+    font-weight: bold;
+    width: 100%;
+    margin: auto;
+    padding: .3em 0 .3em .4em;
+    background: #fcefa1;
+    display: none;
+    border: 1px solid #CCC;
+    color: #444;
+}
+
+.edit-title {
+    font-size: 1.1em;
+    height: 2em;
+    width: 100%;
+    padding: .6em 0 0 0;
+    text-align: center;
+}
+
+#editform {
+    width: 100%;
+    margin-bottom: 0em;
+    padding: 0.5em 0em;
+    background-color: #EDEDED;
+    border: 1px solid #D3D3D3;
+    border-top: 0px;
+}
+
+#editform table {
+    margin: 0.5em auto;
+}
+
+#editform table td {
+    padding: .5em .4em;
+    vertical-align: middle;
+}
+
+#editform input,
+#editform select {
+    width: 20em;
+    height: 2em;
+}
+
+#editform .label {
+    text-align: right;
+    font-weight: bold;
+}
+
+#editbutton {
+    width: 12em;
+    margin: auto;
+    margin-bottom: .3em;
+}
+
+/* Uniform Panel */
+
+.unihistory {
+    width: 100%;
+    margin-bottom: 0em;
+    padding: 0.5em 0em;
+    background-color: #EDEDED;
+    border: 1px solid #D3D3D3;
+}
+
+.unihistory table {
+    border-collapse: collapse;
+    width: 96%;
+    margin: 1em;
+}
+
+.unihistory thead td {
+    background-color: #D3D3D3;
+    border: 1px solid #999999;
+    padding: 4px;
+    text-align: center;
+}
+
+.unihistory table tbody td {
+    padding: .5em .4em;
+    color: #3D3D3D;
+    background-color: #EDEDED;
+    border: 1px solid #D3D3D3;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.editUniform, .deleteUniform {
+    width: 15em;
+    text-align: center;
+}
+
+#uniform {
+    width: 100%;
+    padding-top: 0.8em;
+    margin-bottom: 1em;
+    background-color: #EDEDED;
+    border: 1px solid #D3D3D3;
+}
+
+#uniform input {
+    width: 3em;
+    height: 1.6em;
+}
+
+#uniform form {
+    width: 30em;
+    margin: 0.5em auto;
+}
+
+/* Member Registration/Uniform Checkout Form */
+
+.regtitle {
+    font-size: 1.1em;
+    height: 2em;
+    width: 75%;
+    padding: .6em 0 0 0;
+    text-align: center;
+    margin: auto;
+}
+
+#regform {
+    width: 75%;
+    margin: auto;
+    padding: 0.5em 0em;
+    border: 1px solid #D3D3D3;
+    border-top: 0px;
+    background: #FFFFFF;
+}
+
+#regform table {
+    margin: auto;
+    margin-bottom: 3em;
+}
+
+#regform table td {
+    padding: 1.5em 1em;
+    vertical-align: middle;
+}
+
+#regform .full {
+    width: 20em;
+    height: 2em;
+}
+
+#regform select {
+    width: 20em;
+    height: 2em;
+}
+
+#regform .label {
+    text-align: right;
+    font-weight: bold;
+}
+
+#regform .phone {
+    width: 5.9em;
+    height: 2em;
+}
+
+#regform #city {
+    width: 11em;
+    height: 2em;
+}
+
+#regform #zip {
+    width: 4.2em;
+    height: 2em;
+}
+
+#thanks {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    margin: 10em auto;
+}
+
+/* Table Tools */
+
+.TableTools {
+    padding: 3px 0 3px 3px;
+    float: left;
+    margin: 2em 1.5em;
+}
+
+.TableTools_button {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+
+.TableTools_csv {
+    background: url(../images/tabletools/csv.png) no-repeat center center;
+    border: 1px solid #f0f0f0;
+}
+
+.TableTools_csv_hover {
+    background: url(../images/tabletools/csv_hover.png) no-repeat center center;
+    border: 1px solid #d0d0d0;
+    background-color: #fdfdfd;
+}
+
+.TableTools_xls {
+    background: url(../images/tabletools/xls.png) no-repeat center center;
+    border: 1px solid #f0f0f0;
+}
+
+.TableTools_xls_hover {
+    background: url(../images/tabletools/xls_hover.png) no-repeat center center;
+    border: 1px solid #d0d0d0;
+    background-color: #fdfdfd;
+}
+
+.TableTools_clipboard {
+    background: url(../images/tabletools/copy.png) no-repeat center center;
+    border: 1px solid #f0f0f0;
+}
+
+.TableTools_clipboard_hover {
+    background: url(../images/tabletools/copy_hover.png) no-repeat center center;
+    border: 1px solid #d0d0d0;
+    background-color: #fdfdfd;
+}
+
+.TableTools_print {
+    background: url(../images/tabletools/print.png) no-repeat center center;
+    border: 1px solid #f0f0f0;
+}
+
+.TableTools_print_hover {
+    background: url(../images/tabletools/print_hover.png) no-repeat center center;
+    border: 1px solid #d0d0d0;
+    background-color: #fdfdfd;
+}
+
+.TableTools_PrintInfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 150px;
+    margin-left: -200px;
+    margin-top: -75px;
+    text-align: center;
+    background-color: #3f3f3f;
+    color: white;
+    padding: 10px 30px;
+
+    opacity: 0.9;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.TableTools_PrintInfo h6 {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 28px;
+    margin: 1em;
+}
+
+.TableTools_PrintInfo p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.TableTools_WhiteBG {
+    background: #FFFFFF;
+}
+
+.TableTools_OriginalBG {
+    background: transparent url(../images/page_bg.jpg) repeat fixed center 0;
+}
